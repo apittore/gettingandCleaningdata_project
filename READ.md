@@ -9,6 +9,6 @@ Merges the training and test sets to create one data set, namely train/X_train.t
 Reads features.txt and extracts only the measurements on the mean and standard deviation for each measurement.
 The result is a 10299x66 data frame, because only 66 out of 561 attributes are measurements on the mean and standard deviation.
 
-Reads activity_labels.txt and applies descriptive activity names to name the activities in the data set:
+Read activity_labels.txt and applies descriptive activity names to name the activities in the data set:
 calculate the mean of dataset (66 attibutes)
 write file data_set_merged.txt and data_set_avarage.txt
